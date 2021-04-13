@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/cardview_light_background</item>
+        <item name="colorPrimaryDark">@color/cardview_dark_background</item>
+        <item name="colorAccent">@color/purple_200</item>
+        <item name="color" >@color/darkgreen</item>
+
+
+
+    </style>
+
+
+
+</resources>

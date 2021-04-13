@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="@drawable/papiro"
+    >
+
+
+    <RelativeLayout
+        android:id="@+id/cont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imagen"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="5dp"
+            />
+
+
+        <TextView
+            android:id="@+id/textSpanish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/imagen"
+            android:text="Español"
+            android:textSize="26sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/textElvish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textSpanish"
+            android:layout_toRightOf="@id/imagen"
+            android:text="Élfico"
+            android:textSize="23sp"
+            android:layout_marginLeft="20dp"/>
+    </RelativeLayout>
+
+</LinearLayout>
